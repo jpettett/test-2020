@@ -1,0 +1,130 @@
+body {
+    background-color: #F9F8F4;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: white;
+    height: 100px;
+    padding-bottom: 20px;
+    box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.755);
+    border-bottom-width: 1px;
+}
+
+
+ul.nav-list {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    float: right;
+    margin-right: 70px;    
+    font-size:0;
+} 
+
+ul.nav-list li {
+    display:inline-block; 
+    margin-left: 20px;
+    margin-bottom: 45px;
+}
+
+ul.nav-list li a {
+    text-decoration: none;
+    padding-top: 40px;
+    font-size: 14px;
+    color: black;
+    display:block;
+    width:100px;
+}
+
+
+.sleepless {
+    float: left;
+    padding-top: 50px;
+    margin-left: 237px;
+}
+
+/* .test-project {
+} */
+
+.office-decor {
+    width: 100%;
+    height: 681px;
+}
+
+.quote {
+    padding: 70px 0px 70px 0px;
+    text-align: center;
+    margin: 0 auto;
+    width: 952px;
+}
+
+.inspirational-quote {
+    font-family: 'Jomolhari', serif;
+    font-size: 32px;
+}
+
+.quote-attribute {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+.building-websites {
+    display: block;
+    font-family: 'Jomolhari', serif;
+    margin-left: 150px;
+}
+
+.building-websites-list-section-one {
+    width:20em;
+    float: left;
+    list-style-type: none;
+    margin-left: 110px;
+}
+
+.building-websites-list-section-two {
+    width:20em;
+    float: left;
+    list-style-type: none;
+}
+
+.building-websites-list-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.building-websites-list-paragraph {
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+   margin-bottom: 50px;
+}
+
+.building-websites-button {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    background-color: #355556;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    margin-left: 150px;
+}
+
+.office {
+    margin-left: 80px;
+}
+
+.meet-our-team {
+    background-color: white;
+    height: 777px;
+}
+
+footer {
+    background-color: #355556;
+    color: white;
+    
+}
