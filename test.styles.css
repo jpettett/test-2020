@@ -8,11 +8,13 @@ body {
 nav {
     background-color: white;
     height: 100px;
-    padding-bottom: 20px;
     box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.755);
     border-bottom-width: 1px;
 }
 
+ul {
+    list-style-type: none;
+}
 
 ul.nav-list {
     font-family: 'Raleway', sans-serif;
@@ -37,15 +39,22 @@ ul.nav-list li a {
     width:100px;
 }
 
-
-.sleepless {
+.sleepless-logo {
+    display: block;
     float: left;
-    padding-top: 50px;
-    margin-left: 237px;
+    margin-left: 37px;
+    padding-top: 35px;
 }
 
-/* .test-project {
-} */
+.media-logo {
+    padding-top: 15px;
+    float: left;
+    margin-left: 200px;
+}
+
+.test-project {
+    padding-left: 15px;
+} 
 
 .office-decor {
     width: 100%;
@@ -71,11 +80,10 @@ ul.nav-list li a {
     font-size: 14px;
 }
 
-
 .building-websites {
-    display: block;
     font-family: 'Jomolhari', serif;
     margin-left: 150px;
+    font-size: 38px;
 }
 
 .building-websites-list-section-one {
@@ -98,13 +106,12 @@ ul.nav-list li a {
 }
 
 .building-websites-list-paragraph {
-   font-family: 'Raleway', sans-serif;
-   font-size: 14px;
-   margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 
 .building-websites-button {
-    display: block;
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 15px;
@@ -112,19 +119,160 @@ ul.nav-list li a {
     padding: 10px 35px 10px 35px;
     border: none;
     margin-left: 150px;
+    margin-bottom: 50px;
 }
 
 .office {
+    flex-basis: auto;
     margin-left: 80px;
 }
 
 .meet-our-team {
     background-color: white;
     height: 777px;
+    padding-left: 150px;
+}
+
+.get-to-know-us {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border-bottom: #355556 2px solid;
+    float: right;
+    padding-top: 145px;
+    padding-bottom: 20px;
+    margin-right: 220px;
+}
+
+
+.meet-our-team-headshots {
+    display: inline-block;
+    font-family: 'Jomolhari', serif;
+    font-size: 38px;
+    padding-top: 50px;
+}
+
+.headshot-photos {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.headshot-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.headshot-paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.josh, .matthew {
+    width: 280px;
+    padding-right: 30px;
+}
+
+.slider-graphic {
+    height: 70px;
+    width: 70px;
+    padding-top: 110px;
+}
+
+
+.photography {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.room-photography-title {
+    display: inline-block;
+    font-family: 'Jomolhari', serif;
+    font-size: 38px;
+    padding-top: 150px;
+}
+
+.section-top-row {
+    padding-top: 60px;
+    float: right;
+}
+
+.guitar-office-photo {
+    padding-left: 76px;
+    padding-top: 50px;
+}
+
+.bird-office-photo {
+    padding-bottom: 96px;
 }
 
 footer {
+    display: flex;
     background-color: #355556;
     color: white;
-    
+    bottom: 0;
+    height: 285px;
+    left: 0;
+    position: relative; 
+    width:100%;
+    margin-top: 30px;
+    /* padding-top: 60px; */
+} 
+
+.footer-section-title {
+    float: left;
+    font-family: 'Jomolhari', serif;
+    font-size: 38px;
+    padding-top: 50px;
+    padding-left: 120px;
 }
+
+.book-appointment-button {
+    align-self: flex-end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #355556;
+    background-color: #FFFFFF;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 90px;
+}
+
+.get-in-touch-button {
+    align-self: flex-end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #355556;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid #FFFFFF;
+    margin-left: -390px;
+    margin-bottom: 90px;
+}
+
+.footer-list, .footer-list-two {
+    padding-top: 80px;
+}
+
+.footer-list-two li a {
+    margin-left: 150px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-anchors {
+    padding-bottom: 30px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 300px;
+} 
+
