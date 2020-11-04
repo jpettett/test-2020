@@ -1,15 +1,14 @@
 body {
-    background-color: #F9F8F4;
-    margin: 0;
     width: 100%;
     height: 100%;
+    margin: 0;
+    background-color: #F9F8F4;
 }
 
 nav {
     background-color: white;
     height: 100px;
-    box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.755);
-    border-bottom-width: 1px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.536);
 }
 
 ul {
@@ -25,7 +24,7 @@ ul.nav-list {
 } 
 
 ul.nav-list li {
-    display:inline-block; 
+    display: inline-block; 
     margin-left: 20px;
     margin-bottom: 45px;
 }
@@ -326,3 +325,9 @@ footer {
     padding-top: 30px;
     padding-left: 150px
 } 
+
+@media only screen and (max-width: 987px) {
+    nav {
+        width: 100%;
+    }
+}
