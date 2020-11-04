@@ -80,7 +80,20 @@ ul.nav-list li a {
     font-size: 14px;
 }
 
+.think-list {
+    display: flex;
+    align-items: flex-start;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.group-four {
+    padding-bottom: 110px;
+}
+
 .building-websites {
+    display: inline;
     font-family: 'Jomolhari', serif;
     margin-left: 150px;
     font-size: 38px;
@@ -88,14 +101,13 @@ ul.nav-list li a {
 
 .building-websites-list-section-one {
     width:20em;
-    float: left;
     list-style-type: none;
     margin-left: 110px;
+    margin-bottom: 0px;
 }
 
 .building-websites-list-section-two {
     width:20em;
-    float: left;
     list-style-type: none;
 }
 
@@ -112,19 +124,26 @@ ul.nav-list li a {
 }
 
 .building-websites-button {
+    align-self: flex-end;
     font-family: 'Raleway', sans-serif;
     color: white;
+    font-weight: bold;
     font-size: 15px;
     background-color: #355556;
     padding: 10px 35px 10px 35px;
     border: none;
     margin-left: 150px;
-    margin-bottom: 50px;
 }
 
-.office {
-    flex-basis: auto;
-    margin-left: 80px;
+.building-websites-button:hover {
+    cursor: pointer;
+}
+
+.office-photo {
+    float: right;
+    padding-right: 150px;
+    padding-left: 90px;
+    padding-top: 15px;
 }
 
 .meet-our-team {
@@ -221,6 +240,7 @@ footer {
 .footer-section-title {
     float: left;
     font-family: 'Jomolhari', serif;
+    font-weight: 400;
     font-size: 38px;
     padding-top: 50px;
     padding-left: 120px;
@@ -231,12 +251,18 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    color: #355556;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #355556;
     padding: 10px 35px 10px 35px;
-    border: none;
+    border: 1px solid #FFFFFF;
     margin-left: 15px;
     margin-bottom: 90px;
+}
+
+.book-appointment-button:hover {
+    color: #355556;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .get-in-touch-button {
@@ -250,6 +276,12 @@ footer {
     border: 1px solid #FFFFFF;
     margin-left: -390px;
     margin-bottom: 90px;
+}
+
+.get-in-touch-button:hover {
+    color: #355556;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .footer-list, .footer-list-two {
