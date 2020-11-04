@@ -159,7 +159,7 @@ ul.nav-list li a {
     float: right;
     padding-top: 145px;
     padding-bottom: 20px;
-    margin-right: 220px;
+    margin-right: 160px;
 }
 
 
@@ -171,9 +171,8 @@ ul.nav-list li a {
 }
 
 .headshot-photos {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    align-content: space-around;
 }
 
 .headshot-title {
@@ -234,7 +233,6 @@ footer {
     position: relative; 
     width:100%;
     margin-top: 30px;
-    /* padding-top: 60px; */
 } 
 
 .footer-section-title {
@@ -256,7 +254,7 @@ footer {
     padding: 10px 35px 10px 35px;
     border: 1px solid #FFFFFF;
     margin-left: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .book-appointment-button:hover {
@@ -275,7 +273,7 @@ footer {
     padding: 10px 35px 10px 35px;
     border: 1px solid #FFFFFF;
     margin-left: -390px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .get-in-touch-button:hover {
@@ -308,3 +306,10 @@ footer {
     margin-left: 300px;
 } 
 
+.privacy-policy {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    float: right;
+    padding-top: 30px;
+}
